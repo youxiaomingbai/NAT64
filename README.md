@@ -12,7 +12,7 @@ Under the IPv6  Network's Situation, the server IP of IPv4 transform to IPv6，u
 ```OC
 
 #import "NAT64.h"
-[NAT64 retrunipwithip:@"1.1.1.1" andport:@"111"];
+NSString *Ip =  [NAT64 retrunipwithip:@"1.1.1.1" andport:@"111"];
 
 ```
 ## License
